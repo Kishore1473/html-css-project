@@ -1,0 +1,127 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial;
+}
+
+body{
+background:#f5f7fb;
+color:#333;
+}
+
+/* HEADER */
+
+header{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 60px;
+background:#111;
+color:white;
+}
+
+nav a{
+margin-left:20px;
+color:white;
+text-decoration:none;
+font-size:16px;
+}
+
+nav a:hover{
+color:#00adb5;
+}
+
+/* HERO */
+
+.hero{
+height:80vh;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+background:linear-gradient(135deg,#00adb5,#393e46);
+color:white;
+}
+
+.hero h1{
+font-size:48px;
+margin-bottom:10px;
+}
+
+.hero p{
+font-size:20px;
+margin-bottom:20px;
+}
+
+button{
+padding:12px 25px;
+border:none;
+background:#fff;
+color:#333;
+font-weight:bold;
+border-radius:5px;
+cursor:pointer;
+}
+
+button:hover{
+background:#ddd;
+}
+
+/* ABOUT */
+
+.about{
+padding:80px 60px;
+text-align:center;
+background:white;
+}
+
+.about h2{
+margin-bottom:20px;
+font-size:32px;
+}
+
+/* PROJECTS */
+
+.projects{
+padding:80px 60px;
+text-align:center;
+}
+
+.project-container{
+display:flex;
+gap:30px;
+justify-content:center;
+margin-top:40px;
+flex-wrap:wrap;
+}
+
+.card{
+background:white;
+padding:25px;
+width:250px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-10px);
+}
+
+/* CONTACT */
+
+.contact{
+padding:60px;
+text-align:center;
+background:white;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:20px;
+}
